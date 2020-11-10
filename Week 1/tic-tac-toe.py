@@ -282,3 +282,87 @@ def stop_win():
 # ------------ Start Execution -------------
 # Play a game of tic tac toe
 play_game()
+
+# Start first:1  Play second:2
+# 1
+
+
+# - | - | -     1 | 2 | 3
+# - | - | -     4 | 5 | 6
+# - | - | -     7 | 8 | 9
+
+
+# Your turn.
+# Choose a position from 1-9: 1
+
+
+# X | - | -     1 | 2 | 3
+# - | - | -     4 | 5 | 6
+# - | - | -     7 | 8 | 9
+
+
+
+
+# X | O | -     1 | 2 | 3
+# - | - | -     4 | 5 | 6
+# - | - | -     7 | 8 | 9
+
+
+# Your turn.
+# Choose a position from 1-9: 9
+
+
+# X | O | -     1 | 2 | 3
+# - | - | -     4 | 5 | 6
+# - | - | X     7 | 8 | 9
+
+
+
+
+# X | O | -     1 | 2 | 3
+# - | O | -     4 | 5 | 6
+# - | - | X     7 | 8 | 9
+
+
+# Your turn.
+# Choose a position from 1-9: 8
+
+
+# X | O | -     1 | 2 | 3
+# - | O | -     4 | 5 | 6
+# - | X | X     7 | 8 | 9
+
+
+
+
+# X | O | -     1 | 2 | 3
+# - | O | -     4 | 5 | 6
+# O | X | X     7 | 8 | 9
+
+
+# Your turn.
+# Choose a position from 1-9: 3
+
+
+# X | O | X     1 | 2 | 3
+# - | O | -     4 | 5 | 6
+# O | X | X     7 | 8 | 9
+
+
+
+
+# X | O | X     1 | 2 | 3
+# - | O | O     4 | 5 | 6
+# O | X | X     7 | 8 | 9
+
+
+# Your turn.
+# Choose a position from 1-9: 4
+
+
+# X | O | X     1 | 2 | 3
+# X | O | O     4 | 5 | 6
+# O | X | X     7 | 8 | 9
+
+
+# Tie.
