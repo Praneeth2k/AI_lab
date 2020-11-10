@@ -118,3 +118,45 @@ class Puzzle:
 
 puz = Puzzle(3)
 puz.process()
+
+# Enter the start state matrix 
+
+# 1 2 3 
+# 4 5 6
+# 7 8 _
+# Enter the goal state matrix 
+
+# 1 2 3
+# 4 5 6
+# 7 _ 8
+
+
+
+
+#   |
+#   |
+#  \'/
+
+# 1 2 3
+# 4 5 6
+# 7 8 _
+
+#   |
+
+
+
+#   |
+#   |
+#  \'/
+
+# 1 2 3
+# 4 5 6
+# 7 8 _
+
+#   |
+#   |
+#  \'/
+
+# 1 2 3
+# 4 5 6
+# 7 _ 8
