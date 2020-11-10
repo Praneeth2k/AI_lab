@@ -58,6 +58,7 @@ def display_board():
 
 # Handle a turn 
 def handle_turn(player, symbol):
+    print(player + "'s turn")
     w = stop_win()
     if w!= None:
       board[w] = symbol
