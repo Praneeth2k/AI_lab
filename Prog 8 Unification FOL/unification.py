@@ -5,7 +5,7 @@ def Unify():
     predicateLHS = input()
     
     print("How many arguments for the LHS?")
-    n = input()
+    n = int(input())
     print("Enter the arguments")
     for i in range(n):
         LHSarguments.append(input())
@@ -13,23 +13,29 @@ def Unify():
     print("Enter the RHS predicate/function")
     predicateRHS = input()
 
-    if(predicateLHS != predicateRHS):
-        print("Cannot unify two different predicates or functions")
-        return
+    
 
     print("How many arguments on the RHS?")
-    m = input()
+    m = int(input())
     print("Enter the arguments")
     for i in range(m):
         RHSarguments.append(input())
+    
+    print("We need to unify")
+   
+    print(predicateLHS,LHSarguments , " and  ", end = "")
+    print(predicateRHS,RHSarguments)
+
+    if(predicateLHS != predicateRHS):
+        print("Cannot unify two different predicates or functions")
+        return
     
     if(n != m):
         print("Cannot unify LHS and RHS as the number of arguments are different on both sides")
         return
 
     substitutions = {}
-    print(LHSarguments)
-    print(RHSarguments)
+    
 
     for i in range(n):
         if(len(LHSarguments[i]) == 1 and len(RHSarguments[i]) > 1):
