@@ -27,7 +27,7 @@ def Unify():
     print(predicateRHS,RHSarguments)
 
     if(predicateLHS != predicateRHS):
-        print("Cannot unify two different predicates or functions")
+        print("Cannot unify two different predicates or functions", predicateLHS, "and ", predicateRHS)
         return
     
     if(n != m):

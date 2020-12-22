@@ -348,9 +348,29 @@ def isOrList(item):
                 return True
     return False
 
-TELL(['implies', 'p', 'q']) #p->q
-TELL(['implies', 'r', 's']) #r->s
+def main():
+    while(True):
+        array = []
+        print("Want to add something to the knowledge base? 1/0")
+        n = int(input())
+
+        if(n == 1):
+            print("Enter the sentence")
+            clause = input()
+            if(clause[0] == '-' and clause[1] == '>'):
+                TELL(["implies", clause[0], clause[3]])
+        else:
+            break    
+    
+    
+    print("Ask the knowledge base")
+    clause = input()
+    
+
+# TELL(['implies', 'p', 'q']) #p->q
+# TELL(['implies', 'r', 's']) #r->s
 print(ASK(['implies',['or','p','r'], ['or', 'q', 's']]))
 
 # Output
 # True
+main()
