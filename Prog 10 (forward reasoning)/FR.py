@@ -4,9 +4,10 @@ def isVariable(x):
     return len(x) == 1 and x.islower() and x.isalpha()
 
 def getAttributes(string):
-    expr = '\([^)]+\)'
+    expr = '\([^)]+\)' 
     matches = re.findall(expr, string)
     return matches
+    
 
 def getPredicates(string):
     expr = '([a-z~]+)\([^&|]+\)'
