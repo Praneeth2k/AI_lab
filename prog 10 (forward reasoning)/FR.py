@@ -110,3 +110,26 @@ def main():
     kb.display()
 
 main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+# missile(x)=>weapon(x)
+# missile(M1)
+# enemy(x,America)=>hostile(x)
+# american(West)
+# enemy(Nono,America)
+# owns(Nono,M1)
+# missile(x)&owns(Nono,x)=>sells(West,x,Nono)
+# american(x)&weapon(y)&sells(x,y,z)&hostile(z)=>criminal(x)
+
+# criminal(x)

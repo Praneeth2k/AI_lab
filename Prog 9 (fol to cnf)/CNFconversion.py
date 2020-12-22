@@ -97,4 +97,7 @@ def start():
         print("\n")
 
 start()
-# animal(y)<=>loves(x,y) next [american(x)&weapon(y)&sells(x, y, z)&hostile(z)]=>criminal(x)
+
+# animal(y)<=>loves(x,y)
+# [american(x)&weapon(y)&sells(x, y, z)&hostile(z)]=>criminal(x)
+# ∀x[∀y[animal(y)=>loves(x,y)]]=>[∃z[loves(z,x)]]
