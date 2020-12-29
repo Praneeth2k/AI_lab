@@ -107,6 +107,7 @@ def main():
     print("Enter the query:")
     query = input()
     kb.ask(query)
+    
     kb.display()
 
 main()
